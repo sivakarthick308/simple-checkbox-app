@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sivak.check_box.MainActivity">
+
+    <CheckBox
+        android:id="@+id/c1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="101dp"
+        android:text="Pen"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:id="@+id/c2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/c1"
+        android:layout_marginTop="40dp"
+        android:text="Pencil"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:id="@+id/c3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/c3"
+        android:layout_centerVertical="true"
+        android:text="Scale"
+        android:textAlignment="center"
+        tools:ignore="InvalidId,NotSibling,UnknownId" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/c3"
+        android:layout_marginTop="58dp"
+        android:text="Check"
+        android:textAlignment="center" />
+
+</RelativeLayout>
